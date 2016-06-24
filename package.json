@@ -1,0 +1,35 @@
+{
+  "name": "lister-frontend",
+  "version": "0.0.1",
+  "description": "Frontend for list making app.",
+  "main": "js/main.js",
+  "scripts": {
+    "bundle": "watchify -v -t [ babelify --presets [ react ] ] js/main.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/battological/lister-frontend.git"
+  },
+  "keywords": [
+    "list",
+    "making",
+    "reactjs"
+  ],
+  "author": "Garrick Sherman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/battological/lister-frontend/issues"
+  },
+  "homepage": "https://github.com/battological/lister-frontend#readme",
+  "dependencies": {
+    "babel-core": "^6.9.1",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-router": "^2.4.1",
+    "superagent": "^2.0.0",
+    "watchify": "^3.7.0"
+  }
+}
